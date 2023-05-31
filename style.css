@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box; /* Agregado: incluye el padding en el ancho/altura */
+}
+
+body {
+    background-color: #f4f4fc;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+main {
+    position: relative; /* Cambiado: para que se ajuste al tamaño del contenido */
+    width: 100%;
+    min-height: 90vh; /* Cambiado: altura mínima del viewport */
+    display: flex;
+    flex-wrap: wrap; /* Agregado: permite que los elementos se envuelvan en pantallas pequeñas */
+    justify-content: space-between;
+}
+
+.contenedor-cajatexto {
+    position: relative; /* Cambiado: para que se ajuste al tamaño del contenido */
+    padding-left: 100px;
+    width: 100%;
+    max-width: 650px; /* Cambiado: añadido un ancho máximo */
+    height: auto; /* Cambiado: ajuste automático de altura */
+}
+
+.cajatexto {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #f4f4fc;
+    cursor: pointer;
+    color: #0a3871;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.cajatexto::placeholder {
+    color: #0a3871;
+}
+
+.alerta {
+    position: relative; /* Cambiado: para que se ajuste al tamaño del contenido */
+    margin-top: 20px; /* Cambiado: añadido margen superior */
+    display: flex;
+    color: #495057;
+}
+
+.contenedor-btn {
+    position: relative; /* Cambiado: para que se ajuste al tamaño del contenido */
+    margin-top: 20px; /* Cambiado: añadido margen superior */
+    height: auto; /* Cambiado: ajuste automático de altura */
+    display: flex;
+    justify-content: center; /* Cambiado: centrar los botones */
+    align-items: center; /* Cambiado: centrar los botones verticalmente */
+    flex-wrap: wrap; /* Agregado: permite que los botones se envuelvan en pantallas pequeñas */
+}
+
+.btn-encriptar,
+.btn-desencriptar {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    margin: 10px; /* Cambiado: añadido margen */
+}
+
+.seccion02 {
+    display: flex;
+    flex-wrap: wrap; /* Agregado: permite que los elementos se envuelvan en pantallas pequeñas */
+    position: relative; /* Cambiado: para que se ajuste al tamaño del contenido */
+    width: 100%;
+    max-width: 400px;
+    padding-right: 20px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+    margin-top: 20px;
+}
+
+.contenedor-img {
+    position: relative;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+
+.contenedor-txt {
+    position: relative;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.contenedor-txt h3 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #343a40;
+}
+
+.contenedor-txt p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #495057;
+    margin-top: 10px;
+}
+
+.contenedor-result {
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.contenedor-result p {
+    color: #495057;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.contenedor-copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn-copy {
+    width: 100%;
+    max-width: 400px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+  
+body {
+    background-color: #f4f4fc;
+}
+  
+header {
+    width: 100%;
+    height: 70px;
+  }
+  
+.logo {
+    width: 100px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+  
+main {
+    width: 100%;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+  
+.contenedor-cajatexto {
+    width: 100%;
+    max-width: 650px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+  
+.cajatexto {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #f4f4fc;
+    color: #0a3871;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+  
+.cajatexto::placeholder {
+    color: #0a3871;
+}
+  
+.alerta {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #495057;
+}
+  
+.contenedor-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+.btn-encriptar,
+.btn-desencriptar {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin: 10px;
+    cursor: pointer;
+}
+  
+.seccion02 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+}
+  
+.contenedor-img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+  .contenedor-txt {
+    text-align: center;
+}
+  
+.contenedor-txt h3 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+  
+.contenedor-txt p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #495057;
+}
+  
+.contenedor-result {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin: 20px auto; /* Centrar horizontalmente */
+    padding: 20px;
+    box-sizing: border-box;
+}
+  
+.contenedor-result p {
+    color: #495057;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.contenedor-copy {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn-copy {
+    width: 100%;
+    max-width: 400px;
+    height: 80px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+
+.ocultar{
+    display: none;
+}
